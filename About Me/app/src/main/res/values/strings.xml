@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="Name">Gabriela Sanchez</string>
+    <string name="yellow_star">Yellow star</string>
+    <string name="bio">Hi, I’m Gabriela Sánchez, but everyone calls me Gaby. I am a very extroverted person! \n\n
+        I ma curious, creative, and very social person who enjoys learning, exploring, and connecting with others. For me, life is about experiences, and I try to live each moment fully and with enthusiasm.\n\n" +
+I love swimming and being in the water—it makes me feel free and recharged. I also read a lot, and my favorite books are mystery novels and psychological thrillers, because they keep me thinking and imagining. I’m passionate about cinema and everything related to the production process, from lighting and recording to photography and multimedia. Storytelling through images and sounds is something that truly inspires me.\n\n
+Animals are very important to me. I have a big pitbull named Lucius, who I love deeply and who has become like my baby. Spending time with him brings me peace and joy. Besides that, I love cooking and, of course, eating—food is one of the things I enjoy the most in life. I also try to balance it with healthy habits. Walking, running, going to the gym, and staying active are essential for me, because I want to take good care of my body and health.\n\n
+I’m extroverted and friendly by nature. Making new friends is easy for me, and I love building meaningful connections. I enjoy listening to others and being there when they need me, because I truly value relationships where there is trust and support on both sides. Spending time with my friends, laughing, sharing stories, and creating memories together are some of my happiest moments.\n\n
+Another thing I truly love is traveling. I enjoy discovering the beauty of my country, the Dominican Republic, with its rivers, beaches, and mountains, but I also dream of visiting many countries around the world. I believe that borders should never be barriers—they are opportunities to discover new cultures, landscapes, and perspectives. That’s why I love being outdoors, going hiking, camping under the stars, exploring hidden places, and capturing every moment with my camera. Photography helps me treasure those memories and tell stories about the places I’ve been.\n\n
+At my core, I’m someone who enjoys life with passion, creativity, and curiosity. Whether it’s through design, reading, traveling, or sharing time with others, I believe that every experience adds something valuable to who we are. I’m always looking forward to learning, connecting, and growing, while enjoying the little and big things that make life meaningful.
+   </string>
+    <string name="What_is_your_nickname">What is your nickname?</string>
+    <string name="button">DONE</string>
+
+</resources>
