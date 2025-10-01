@@ -17,6 +17,7 @@
 package com.example.android.guesstheword.screens.game
 
 import android.os.Bundle
+import android.text.format.DateUtils
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -48,42 +49,47 @@ class GameFragment : Fragment() {
             container,
             false
         )
-        Log.i("GameFragment", "Called ViewModelProviders.of")
+        Log.i("GameFragment", "Called ViewModelProviders of GameViewModel")
         viewModel = ViewModelProviders.of(this).get(GameViewModel::class.java)
 
                       binding.gameViewModel = viewModel
+            binding.setLifecycleOwner(this)
 
-        binding.correctButton.setOnClickListener {
-            viewModel.onCorrect()
-        }
+//        viewModel.word.observe(viewLifecycleOwner, Observer { newWord ->
+//            binding.wordText.text = newWord
+//        })
 
-        binding.skipButton.setOnClickListener {
-            viewModel.onSkip()
-        }
+//        viewModel.score.observe(viewLifecycleOwner, Observer { newScore ->
+//            binding.scoreText.text = newScore.toString()
+//        })
 
 
-        viewModel.word.observe(viewLifecycleOwner, Observer { newWord ->
-            binding.wordText.text = newWord
-        })
 
-        viewModel.score.observe(viewLifecycleOwner, Observer { newScore ->
-            binding.scoreText.text = newScore.toString()
-        }
-        )
-
-        viewModel.eventGameFinish.observe(viewLifecycleOwner, Observer<Boolean> { hasFinished ->
-            if (hasFinished) {
-                gameFinished()
+        viewModel.eventGameFinish.observe(viewLifecycleOwner, Observer<Boolean> { isFinished ->
+            if (isFinished) {
+                val action = GameFragmentDirections.actionGameToScore()
+                val currentScore = viewModel.score.value ?: 0
+                action.setScore(currentScore)
+                findNavController(this).navigate(action)
                 viewModel.onGameFinishComplete()
 
             }
+        })
 
-        }
-        )
+
+//        binding.correctButton.setOnClickListener {
+//            viewModel.onCorrect()
+//        }
+//
+//        binding.skipButton.setOnClickListener {
+//            viewModel.onSkip()
+//        }
+
+
         return binding.root
     }
 
-    fun gameFinished() {
+    private fun gameFinished() {
 
         val currentScore = viewModel.score.value ?: 0
 
