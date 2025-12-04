@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Ubika" parent="android:Theme.Material.Light.NoActionBar">
+
+    <!-- SplashScreen background -->
+    <item name="android:windowSplashScreenBackground">@color/white</item>
+
+    <!-- Logo que se verá en el centro -->
+    <item name="android:windowSplashScreenAnimatedIcon">@drawable/logoseatly</item>
+
+    <!-- Duración del ícono -->
+    <item name="android:windowSplashScreenAnimationDuration">500</item>
+
+    <!-- Modo de auto remove -->
+    <item name="android:windowSplashScreenIconBackgroundColor">@null</item>
+
+    </style>
+</resources>
+
+
+
