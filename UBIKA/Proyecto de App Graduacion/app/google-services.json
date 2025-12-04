@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "589626649683",
+    "project_id": "ubika-app-144fe",
+    "storage_bucket": "ubika-app-144fe.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589626649683:android:09eb32624d89aba607aaa6",
+        "android_client_info": {
+          "package_name": "com.gaby.ubika"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfvdMBFeJ9cWvihPrrUaztEoMr13mq2_c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

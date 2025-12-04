@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">UBIKA</string>
+
+    // AdminHomeScreen
+    <string name="search_placeholder">Buscar por Nombre / ID</string>
+    <string name="gestionar">Gestionar</string>
+    <string name="diasRestantes">Faltan %1$d días para la graduación</string>
+    <string name="grad_no_definida">Fecha de graduación no definida</string>
+    <string name="estudiantes">Estudiantes</string>
+    <string name="descripcion_students_card">Ver lista de estudiantes, agregar nuevos y consultar sus asientos asignados.</string>
+    <string name="ocupacion_asientos_title">Ocupación de asientos</string>
+    <string name="asignar_asientos_title">Asignar Asientos</string>
+    <string name="asignar_asientos_description">Haz click para ver el mapa de asientos y asignar un estudiante.</string>
+    <string name="image_description">Preview teatro</string>
+
+    /// AdminLoginScreen
+
+    <string name="arrow_back">Volver</string>
+
+
+    <string name="fondo_decorativo">Fondo decorativo</string>
+    <string name="admin_login_header">Bienvenido!</string>
+    <string name="email_label">Correo electrónico</string>
+    <string name="password_label">Contraseña</string>
+    <string name="forget_password">Olvidé mi contraseña</string>
+    <string name="recuperar_contrasena">Recuperar contraseña</string>
+    <string name="recuperar_contrasena_description">Ingresa tu correo para recibir el enlace de recuperación.</string>
+    <string name="putemail_toast">Ingresa un correo válido</string>
+    <string name="universidad">Universidad:</string>
+
+
+    <string name="asientos">Asientos</string>
+    <string name="disponibles">Disponibles</string>
+    <string name="asignados">Asignados</string>
+    <string name="asientos_asignados">Asientos asignados</string>
+
+    <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="matricula">Matrícula</string>
+    <string name="guardar">Guardar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="consultar_asiento">Consultar Asiento</string>
+
+
+</resources>
